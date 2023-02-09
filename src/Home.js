@@ -31,6 +31,8 @@ const Home = () => {
             Month:"",
             
           })
+          console.log(emistore)
+          console.log(setemistore)
 }
 function show(){
     setvs(true)
@@ -51,7 +53,7 @@ function show(){
             <br /> 
             </div>
               
-           {(vs==true)?<table border='5px'>
+           {(vs===true)?<table border='5px'>
               <tr>
                 <th>Serial No</th>
                 <th>PRINCIPLE AMMOUNT</th>
